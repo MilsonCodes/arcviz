@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
-import logo from './logo.png';
-import './App.css';
+import { Container, Typography, Box } from '@material-ui/core';
+import React from 'react';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>ArcViz!</h2>
-        </div>
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <Container className="App">
+      <Container className="App-header">
+        <Box>
+          <Typography variant="h2">ArcViz!</Typography>
+          <Typography variant="subtitle1">Interactive, Arcitecture Visulatization Tool</Typography>
+        </Box>
+      </Container>
+    </Container>
+  );
 }
 
 export default App;
