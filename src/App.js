@@ -6,8 +6,8 @@ const App = () => {
     <Container className="App">
       <Container className="App-header">
         <Box>
-          <Typography variant="h2">ArcViz!</Typography>
-          <Typography variant="subtitle1">Interactive, Arcitecture Visulatization Tool</Typography>
+          <Typography variant="h2">ArcViz Alpha</Typography>
+          <Typography variant="subtitle1">Interactive, Arcitecture Visualization Tool</Typography>
         </Box>
       </Container>
     </Container>
