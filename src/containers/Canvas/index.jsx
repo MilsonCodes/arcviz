@@ -1,4 +1,4 @@
-import { Container, Typography, TextField, Button, ColorButton } from '@material-ui/core';
+import { Container, Typography, TextField, Button, IconButton } from '@material-ui/core';
 import React from 'react';
 import Stack from '../../components/Stack';
 import AddIcon from '@material-ui/icons/Add';
@@ -16,13 +16,12 @@ const Canvas = (props) => {
             <Typography component="div" style={{ alignItems: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', height: '80vh'}}>
                 <TextField style={{ width: '25ch' }} id="title" label="Title" defaultValue={props.title}/>
                 <Typography component="div" style={{ height: '80vh'}}>
-                    <ColorButton>
+                    <IconButton>
                         <AddIcon></AddIcon>
-                    </ColorButton>
+                    </IconButton>
                     <Button></Button>
                     <p>Registers</p>
-                    <p>Variables</p>
-                    <Variable></Variable>
+                    <Variable name="x" value="0x105F"></Variable>
                     <Stack></Stack>
                 </Typography>
             </Typography>

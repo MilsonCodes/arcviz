@@ -7,7 +7,7 @@ const Variable = (props) => {
     return (
         <Container>
             Variable
-            {state}
+            {console.log(state)}
         </Container>
     )
 }
